@@ -1,0 +1,18 @@
+[project]
+name = "proj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "gradio",
+    "sqlalchemy",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]",
+    "python-multipart",
+    "requests",
+    "pydantic[email]",
+    "pydantic-settings"
+]
